@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillswap</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Skillswap</h1>
+        <h2>Connect, Collaborate, and Learn Together</h2>
+        <img src="https://images.pexels.com/photos/1181320/pexels-photo-1181320.jpeg" alt="Collaborative Learning" class="hero-image">
+        <br>
+        <a href="#get-started" class="cta-button">Get Started</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Skillswap. All rights reserved.</p>
+    </footer>
+</body>
+</html>
